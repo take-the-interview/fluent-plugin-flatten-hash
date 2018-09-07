@@ -7,7 +7,8 @@ module Fluent
 
     config_param :separator, :string, :default => '.'
     config_param :flatten_array, :bool, :default => true
-    
+    config_param :remove_tag_prefix, :string, :default => ''
+
     def configure(conf)
       super
     end
